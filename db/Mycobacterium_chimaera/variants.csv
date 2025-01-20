@@ -1,0 +1,10 @@
+Gene,Mutation,Info
+rrs,n.1388T>A,type=drug_resistance;drug=amikacin;literature=10.1093/jac/dkx021
+rrs,n.1390A>G,type=drug_resistance;drug=amikacin;literature=10.1093/jac/dkx021
+rrs,n.1391C>T,type=drug_resistance;drug=amikacin;literature=10.1093/jac/dkx021
+rrl,n.2266A>C,type=drug_resistance;drug=macrolides;literature=10.1093/jac/dkx021
+rrl,n.2266A>G,type=drug_resistance;drug=macrolides;literature=10.1093/jac/dkx021
+rrl,n.2266A>T,type=drug_resistance;drug=macrolides;literature=10.1093/jac/dkx021
+rrl,n.2267A>C,type=drug_resistance;drug=macrolides;literature=10.1093/jac/dkx021
+rrl,n.2267A>G,type=drug_resistance;drug=macrolides;literature=10.1093/jac/dkx021
+rrl,n.2267A>T,type=drug_resistance;drug=macrolides;literature=10.1093/jac/dkx021
