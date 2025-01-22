@@ -1,0 +1,4 @@
+Gene,Mutation,Info
+rrlA,n.2279A>C,type=drug_resistance;drug=macrolides;literature=10.1128/AAC.39.12.2625
+rrlA,n.2279A>G,type=drug_resistance;drug=macrolides;literature=10.1128/AAC.39.12.2625
+rrlA,n.2279A>T,type=drug_resistance;drug=macrolides;literature=10.1128/AAC.39.12.2625
