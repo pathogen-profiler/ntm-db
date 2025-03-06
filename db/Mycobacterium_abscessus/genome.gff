@@ -17990,7 +17990,7 @@ CU458896	ena	mRNA	3587121	3587339	.	-	.	ID=transcript:CAM63617;Parent=gene:MAB_3
 CU458896	ena	exon	3587121	3587339	.	-	.	Parent=transcript:CAM63617;Name=CAM63617-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=CAM63617-1;rank=1
 CU458896	ena	CDS	3587121	3587339	.	-	0	ID=CDS:CAM63617;Parent=transcript:CAM63617;protein_id=CAM63617
 ###
-CU458896	ena	gene	3587606	3587914	.	-	.	ID=gene:MAB_3542c;biotype=protein_coding;description=Conserved hypothetical protein (possible anti-sigma factor);gene_id=MAB_3542c;logic_name=ena
+CU458896	ena	gene	3587606	3587914	.	-	.	ID=gene:MAB_3542c;Name=rshA;biotype=protein_coding;description=Conserved hypothetical protein (possible anti-sigma factor);gene_id=MAB_3542c;logic_name=ena
 CU458896	ena	mRNA	3587606	3587914	.	-	.	ID=transcript:CAM63618;Parent=gene:MAB_3542c;biotype=protein_coding;transcript_id=CAM63618
 CU458896	ena	exon	3587606	3587914	.	-	.	Parent=transcript:CAM63618;Name=CAM63618-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=CAM63618-1;rank=1
 CU458896	ena	CDS	3587606	3587914	.	-	0	ID=CDS:CAM63618;Parent=transcript:CAM63618;protein_id=CAM63618
