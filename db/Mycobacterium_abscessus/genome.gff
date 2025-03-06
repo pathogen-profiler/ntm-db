@@ -33,7 +33,7 @@ CU458896	ena	mRNA	5473	6024	.	+	.	ID=transcript:CAM60108;Parent=gene:MAB_0005;bi
 CU458896	ena	exon	5473	6024	.	+	.	Parent=transcript:CAM60108;Name=CAM60108-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=CAM60108-1;rank=1
 CU458896	ena	CDS	5473	6024	.	+	0	ID=CDS:CAM60108;Parent=transcript:CAM60108;protein_id=CAM60108
 ###
-CU458896	ena	gene	6249	8276	.	+	.	ID=gene:MAB_0006;biotype=protein_coding;description=DNA gyrase (subunit B) GyrB (DNA topoisomerase);gene_id=MAB_0006;logic_name=ena
+CU458896	ena	gene	6249	8276	.	+	.	ID=gene:MAB_0006;Name=gyrB,biotype=protein_coding;description=DNA gyrase (subunit B) GyrB (DNA topoisomerase);gene_id=MAB_0006;logic_name=ena
 CU458896	ena	mRNA	6249	8276	.	+	.	ID=transcript:CAM60109;Parent=gene:MAB_0006;biotype=protein_coding;transcript_id=CAM60109
 CU458896	ena	exon	6249	8276	.	+	.	Parent=transcript:CAM60109;Name=CAM60109-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=CAM60109-1;rank=1
 CU458896	ena	CDS	6249	8276	.	+	0	ID=CDS:CAM60109;Parent=transcript:CAM60109;protein_id=CAM60109
@@ -98,7 +98,7 @@ CU458896	ena	mRNA	17269	18189	.	-	.	ID=transcript:CAM60121;Parent=gene:MAB_0018c
 CU458896	ena	exon	17269	18189	.	-	.	Parent=transcript:CAM60121;Name=CAM60121-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=CAM60121-1;rank=1
 CU458896	ena	CDS	17269	18189	.	-	0	ID=CDS:CAM60121;Parent=transcript:CAM60121;protein_id=CAM60121
 ###
-CU458896	ena	gene	18389	20908	.	+	.	ID=gene:MAB_0019;biotype=protein_coding;description=DNA gyrase (subunit A) GyrA (DNA topoisomerase);gene_id=MAB_0019;logic_name=ena
+CU458896	ena	gene	18389	20908	.	+	.	ID=gene:MAB_0019;Name=gyrA;biotype=protein_coding;description=DNA gyrase (subunit A) GyrA (DNA topoisomerase);gene_id=MAB_0019;logic_name=ena
 CU458896	ena	mRNA	18389	20908	.	+	.	ID=transcript:CAM60122;Parent=gene:MAB_0019;biotype=protein_coding;transcript_id=CAM60122
 CU458896	ena	exon	18389	20908	.	+	.	Parent=transcript:CAM60122;Name=CAM60122-1;constitutive=1;ensembl_end_phase=0;ensembl_phase=0;exon_id=CAM60122-1;rank=1
 CU458896	ena	CDS	18389	20908	.	+	0	ID=CDS:CAM60122;Parent=transcript:CAM60122;protein_id=CAM60122
