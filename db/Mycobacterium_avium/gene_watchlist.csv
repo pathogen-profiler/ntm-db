@@ -2,4 +2,4 @@ Gene,Info
 rpoB,type=drug_resistance;drug=rifampicin;literature=10.1016/j.ijantimicag.2005.09.015
 rrsA,type=drug_resistance;drug=amikacin;literature=10.1038/s41598-021-85721-5
 rrlA,type=drug_resistance;drug=macrolides;literature=10.1128/AAC.39.12.2625
-MAV_2512,type=drug_resistance;drug=bedaquiline;literature=10.1183/13993003.00118-2019 
+MAV_2512,type=drug_resistance;drug=bedaquiline;literature=10.1183/13993003.00118-2019
