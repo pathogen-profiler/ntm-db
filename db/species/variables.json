@@ -1,4 +1,5 @@
 {
     "db-schema-version": "3.0.0",
+    "type": "species",
     "gtdb-version": "220"
 }
