@@ -1,0 +1,3 @@
+[submodule "db/species/ntm-sylph-db"]
+	path = db/species/ntm-sylph-db
+	url = https://github.com/pathogen-profiler/ntm-sylph-db.git
