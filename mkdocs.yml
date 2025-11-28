@@ -1,0 +1,22 @@
+site_name: TB-ML-Containers
+
+plugins:
+    - search
+    - macros
+
+theme:
+  name: material
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - abbr
+  - pymdownx.keys
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+  - pymdownx.tabbed:
+      alternate_style: true 
