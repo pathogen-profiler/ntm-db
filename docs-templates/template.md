@@ -13,7 +13,7 @@ Key | value
 Species | {{ data['variables']['species'] }}
 Reference sequence accession | {{ data['reference_accession'] }}
 Subspecies detection  | {{ data['subspecies_detection'] }}
-Resistance detection  | {{ data['subspecies_detection'] }}
+Resistance detection  | {{ data['resistance_detection'] }}
 
 ## Subspecies detection
 
