@@ -1,8 +1,8 @@
-name: Auto-merge Mycobacterium branches to docs
+name: Auto-merge main to docs
 on:
   push:
     branches:
-      - 'Mycobacterium_**'
+      - main
 
 permissions:
   contents: write
@@ -23,9 +23,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
       
-      - name: Merge Mycobacterium branch into docs
+      - name: Merge main into docs
         run: |
           git fetch origin docs
           git checkout docs
-          git merge origin/${{ github.ref_name }} --no-edit
+          git merge origin/main --no-edit
           git push origin docs
