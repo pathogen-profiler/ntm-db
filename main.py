@@ -17,6 +17,8 @@ def get_genome_sequence_id(filename):
 def load_specific_csv(filename):
     rows = []
     columns = set(['comment'])
+    if os.path.isfile(filename)==False:
+        return rows
     for row in csv.DictReader(open(filename)):
         info = {k:v for k,v in [d.split('=') for d in row['Info'].split(';')]}
         row.update(info)
