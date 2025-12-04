@@ -1,0 +1,31 @@
+name: Auto-merge Mycobacterium branches to docs
+on:
+  push:
+    branches:
+      - 'Mycobacterium_**'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+      
+      - name: Merge Mycobacterium branch into docs
+        run: |
+          git fetch origin docs
+          git checkout docs
+          git merge origin/${{ github.ref_name }} --no-edit
+          git push origin docs
