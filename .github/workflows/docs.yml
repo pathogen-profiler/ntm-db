@@ -18,4 +18,5 @@ jobs:
           key: ${{ github.ref }}
           path: .cache
       - run: pip install mkdocs-material mkdocs-macros-plugin
+      - run: python create-documentation.py
       - run: mkdocs gh-deploy --force
