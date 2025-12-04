@@ -3,6 +3,10 @@ on:
   push:
     branches:
       - docs
+  workflow_run:
+    workflows: ["Auto-merge main to docs"]
+    types:
+      - completed
 permissions:
   contents: write
 jobs:
