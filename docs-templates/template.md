@@ -71,7 +71,7 @@ $(document).ready(function() {
         { targets: '_all', visible: true }
     ],
     layout: {
-        //   top1: 'searchBuilder',
+          top1: 'searchBuilder',
         topStart: {
             buttons: [
                 {
