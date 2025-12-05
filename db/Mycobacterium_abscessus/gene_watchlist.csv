@@ -1,8 +1,8 @@
-Gene,Info
-rrl,type=drug_resistance;drug=macrolides;literature=10.1038/s41467-021-25484-9
-rrs,type=drug_resistance;drug=amikacin;literature=10.1038/s41467-021-25484-9
-MAB_2297,type=drug_resistance;drug=macrolides;literature=10.1038/s41467-021-25484-9
-MAB_0019,type=drug_resistance;drug=fluoroquinolones;literature=10.1038/s41467-021-25484-9
-MAB_0006,type=drug_resistance;drug=fluoroquinolones;literature=10.1038/s41467-021-25484-9
-MAB_0185c,type=drug_resistance;drug=ethambutol;literature=10.1093/jac/dkr578
-MAB_3542c,type=drug_resistance;drug=fluoroquinolones;literature=10.1128/aac.01051-24
+Gene,type,drug,literature
+rrl,drug_resistance,macrolides,10.1038/s41467-021-25484-9
+rrs,drug_resistance,amikacin,10.1038/s41467-021-25484-9
+MAB_2297,drug_resistance,macrolides,10.1038/s41467-021-25484-9
+MAB_0019,drug_resistance,fluoroquinolones,10.1038/s41467-021-25484-9
+MAB_0006,drug_resistance,fluoroquinolones,10.1038/s41467-021-25484-9
+MAB_0185c,drug_resistance,ethambutol,10.1093/jac/dkr578
+MAB_3542c,drug_resistance,fluoroquinolones,10.1128/aac.01051-24
