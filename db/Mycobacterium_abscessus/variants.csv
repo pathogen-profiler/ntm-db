@@ -1,7 +1,7 @@
 Gene,Mutation,type,drug,literature,hain,E.coli-nomenclature,gene_id,so_term,comment
-rrl,n.2269A>C,drug_resistance,macrolides,Realegeno et al,no,A2057C,,,
-rrl,n.2269A>G,drug_resistance,macrolides,Realegeno et al,no,A2057G,,,
-rrl,n.2269A>T,drug_resistance,macrolides,Realegeno et al,no,A2057T,,,
+rrl,n.2269A>C,drug_resistance,macrolides,10.1016/j.jmoldx.2021.07.023,no,A2057C,,,
+rrl,n.2269A>G,drug_resistance,macrolides,10.1016/j.jmoldx.2021.07.023,no,A2057G,,,
+rrl,n.2269A>T,drug_resistance,macrolides,10.1016/j.jmoldx.2021.07.023,no,A2057T,,,
 rrl,n.2270A>C,drug_resistance,macrolides,10.1038/s41467-021-25484-9,yes,A2058C,,,
 rrl,n.2270A>G,drug_resistance,macrolides,10.1038/s41467-021-25484-9,yes,A2058G,,,
 rrl,n.2270A>T,drug_resistance,macrolides,10.1038/s41467-021-25484-9,yes,A2058T,,,
@@ -14,9 +14,9 @@ rrl,n.2281G>T,drug_resistance,macrolides,10.1038/s41467-021-25484-9,no,G2069T,,,
 rrl,n.2293A>C,drug_resistance,macrolides,10.1038/s41467-021-25484-9,no,A2082C,,,
 rrl,n.2293A>G,drug_resistance,macrolides,10.1038/s41467-021-25484-9,no,A2082G,,,
 rrl,n.2293A>T,drug_resistance,macrolides,10.1038/s41467-021-25484-9,no,A2082T,,,
-rrs,n.1373T>A,drug_resistance,amikacin,Realegeno et al,yes,T1406A,,,
-rrs,n.1373T>C,drug_resistance,amikacin,Realegeno et al,no,T1406C,,,
-rrs,n.1373T>G,drug_resistance,amikacin,Realegeno et al,no,T1406G,,,
+rrs,n.1373T>A,drug_resistance,amikacin,10.1016/j.jmoldx.2021.07.023,yes,T1406A,,,
+rrs,n.1373T>C,drug_resistance,amikacin,10.1016/j.jmoldx.2021.07.023,no,T1406C,,,
+rrs,n.1373T>G,drug_resistance,amikacin,10.1016/j.jmoldx.2021.07.023,no,T1406G,,,
 rrs,n.1375A>C,drug_resistance,amikacin,10.1038/s41467-021-25484-9,no,A1408C,,,
 rrs,n.1375A>G,drug_resistance,amikacin,10.1038/s41467-021-25484-9,yes,A1408G,,,
 rrs,n.1375A>T,drug_resistance,amikacin,10.1038/s41467-021-25484-9,no,A1408T,,,
@@ -24,6 +24,6 @@ rrs,n.1376C>A,drug_resistance,amikacin,10.1038/s41467-021-25484-9,no,C1409A,,,
 rrs,n.1376C>G,drug_resistance,amikacin,10.1038/s41467-021-25484-9,no,C1409G,,,
 rrs,n.1376C>T,drug_resistance,amikacin,10.1038/s41467-021-25484-9,yes,C1409T,,,
 erm(41),functionally_normal,drug_resistance,macrolides,10.1038/s41467-021-25484-9,,,,,
-erm(41),p.Trp10Arg,loss_of_function,,,yes,,MAB_2297,loss_of_function_variant,Causes a loss of function in erm(41) and removes the inducible macrolide resistance phenotype
-erm(41),p.Arg7*,loss_of_function,,,no,,MAB_2297,loss_of_function_variant,Causes a loss of function in erm(41) and removes the inducible macrolide resistance phenotype
+erm(41),p.Trp10Arg,loss_of_function,,10.1016/j.jmoldx.2021.07.023,yes,,MAB_2297,loss_of_function_variant,Causes a loss of function in erm(41) and removes the inducible macrolide resistance phenotype
+erm(41),p.Arg7*,loss_of_function,,10.1016/j.jmoldx.2021.07.023,no,,MAB_2297,loss_of_function_variant,Causes a loss of function in erm(41) and removes the inducible macrolide resistance phenotype
 gyrA,p.Asp96Asn,drug_resistance,fluoroquinolones,10.1128/aac.01051-24,,,,,
