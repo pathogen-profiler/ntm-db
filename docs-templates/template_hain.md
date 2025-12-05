@@ -40,7 +40,7 @@ Gene | Drug | Literature
 
 
 ## Resistance mechanisms
-Gene | Mutation | Type | Drug  | Literature | E.coli numbering | In Hain LPA | Comment
+Gene | Mutation | Type | Drug  | Literature |  In Hain LPA | E.coli numbering | Comment
 ------------ | ------------- | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ 
 {%- for row in data['mutations'] %}
 {{ row.Gene }} | {{ row.Mutation }} | {{ row.type }} | {{ row.drug }} | {{ row.literature }} | {{ row.hain }} | {{ row['E.coli-nomenclature'] }} | {{ row.comment }} |

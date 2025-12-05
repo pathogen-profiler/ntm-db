@@ -20,9 +20,9 @@ def load_specific_csv(filename):
     if os.path.isfile(filename)==False:
         return rows
     for row in csv.DictReader(open(filename)):
-        info = {k:v for k,v in [d.split('=') for d in row['Info'].split(';')]}
-        row.update(info)
-        del row['Info']
+        # info = {k:v for k,v in [d.split('=') for d in row['Info'].split(';')]}
+        # row.update(info)
+        # del row['Info']
         columns.update(list(row))
         rows.append(row)
 
