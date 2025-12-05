@@ -1,2 +1,2 @@
-Gene,Info
-rpoB,type=drug_resistance;drug=rifampicin;literature=10.1016/j.cmi.2018.02.022
+Gene,type,drug,literature
+rpoB,drug_resistance,rifampicin,10.1016/j.cmi.2018.02.022
