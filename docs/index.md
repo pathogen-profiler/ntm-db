@@ -2,7 +2,11 @@
 
 Welcome to the NTM knowledge database. This database contains information on genetic mutations associated with drug resistance in non-tuberculous mycobacteria (NTM) species. The data is curated from scientific literature and is intended to assist researchers and clinicians in understanding the genetic basis of drug resistance in NTM.
 
+## Database Structure
+
 The database is organized by species, with each species having its own page containing information on subspecies detection, drug resistance, genes of interest, and known resistance mechanisms. Use the navigation menu on the left to explore the different species covered in this database.
+
+There is also a [species detection](species-detection.md) page that provides an overview of all species included in the database along with their reference sequence accessions.
 
 ## NTM-Profiler
 
