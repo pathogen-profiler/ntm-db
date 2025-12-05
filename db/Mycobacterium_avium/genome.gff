@@ -3046,12 +3046,12 @@ CP000479.1	Genbank	gene	1485243	1485830	.	-	.	ID=MAV_1529;Name=MAV_1529;gbkey=Ge
 CP000479.1	Genbank	CDS	1485243	1485830	.	-	0	ID=cds-ABK64546.1;Parent=MAV_1529;Dbxref=NCBI_GP:ABK64546.1;Name=ABK64546.1;Note=identified by match to protein family HMM PF01923%3B match to protein family HMM TIGR00636;gbkey=CDS;locus_tag=MAV_1529;product=ATP:cob(I)alamin adenosyltransferase;protein_id=ABK64546.1;transl_table=11
 CP000479.1	Genbank	gene	1485921	1487174	.	+	.	ID=MAV_1531;Name=murA;gbkey=Gene;gene=murA;gene_biotype=protein_coding;locus_tag=MAV_1531
 CP000479.1	Genbank	CDS	1485921	1487174	.	+	0	ID=cds-ABK65084.1;Parent=MAV_1531;Dbxref=NCBI_GP:ABK65084.1;Name=ABK65084.1;Note=identified by match to protein family HMM PF00275%3B match to protein family HMM TIGR01072;gbkey=CDS;gene=murA;locus_tag=MAV_1531;product=UDP-N-acetylglucosamine 1-carboxyvinyltransferase;protein_id=ABK65084.1;transl_table=11
-CP000479.1	Genbank	gene	1487542	1489058	.	+	.	ID=MAV_1532;Name=rrsA;gbkey=Gene;gene=rrsA;gene_biotype=rRNA;locus_tag=MAV_1532
-CP000479.1	Genbank	rRNA	1487542	1489058	.	+	.	ID=rna-MAV_1532;Parent=MAV_1532;gbkey=rRNA;gene=rrsA;locus_tag=MAV_1532;product=16S ribosomal RNA
-CP000479.1	Genbank	exon	1487542	1489058	.	+	.	ID=exon-MAV_1532-1;Parent=rna-MAV_1532;gbkey=rRNA;gene=rrsA;locus_tag=MAV_1532;product=16S ribosomal RNA
-CP000479.1	Genbank	gene	1489339	1492450	.	+	.	ID=MAV_1533;Name=rrlA;gbkey=Gene;gene=rrlA;gene_biotype=rRNA;locus_tag=MAV_1533
-CP000479.1	Genbank	rRNA	1489339	1492450	.	+	.	ID=rna-MAV_1533;Parent=MAV_1533;gbkey=rRNA;gene=rrlA;locus_tag=MAV_1533;product=23S ribosomal RNA
-CP000479.1	Genbank	exon	1489339	1492450	.	+	.	ID=exon-MAV_1533-1;Parent=rna-MAV_1533;gbkey=rRNA;gene=rrlA;locus_tag=MAV_1533;product=23S ribosomal RNA
+CP000479.1	Genbank	gene	1487542	1489058	.	+	.	ID=MAV_1532;Name=rrs;gbkey=Gene;gene=rrs;gene_biotype=rRNA;locus_tag=MAV_1532
+CP000479.1	Genbank	rRNA	1487542	1489058	.	+	.	ID=rna-MAV_1532;Parent=MAV_1532;gbkey=rRNA;gene=rrs;locus_tag=MAV_1532;product=16S ribosomal RNA
+CP000479.1	Genbank	exon	1487542	1489058	.	+	.	ID=exon-MAV_1532-1;Parent=rna-MAV_1532;gbkey=rRNA;gene=rrs;locus_tag=MAV_1532;product=16S ribosomal RNA
+CP000479.1	Genbank	gene	1489339	1492450	.	+	.	ID=MAV_1533;Name=rrl;gbkey=Gene;gene=rrl;gene_biotype=rRNA;locus_tag=MAV_1533
+CP000479.1	Genbank	rRNA	1489339	1492450	.	+	.	ID=rna-MAV_1533;Parent=MAV_1533;gbkey=rRNA;gene=rrl;locus_tag=MAV_1533;product=23S ribosomal RNA
+CP000479.1	Genbank	exon	1489339	1492450	.	+	.	ID=exon-MAV_1533-1;Parent=rna-MAV_1533;gbkey=rRNA;gene=rrl;locus_tag=MAV_1533;product=23S ribosomal RNA
 CP000479.1	Genbank	gene	1492547	1492662	.	+	.	ID=MAV_1534;Name=rrfA;gbkey=Gene;gene=rrfA;gene_biotype=rRNA;locus_tag=MAV_1534
 CP000479.1	Genbank	rRNA	1492547	1492662	.	+	.	ID=rna-MAV_1534;Parent=MAV_1534;gbkey=rRNA;gene=rrfA;locus_tag=MAV_1534;product=5S ribosomal RNA
 CP000479.1	Genbank	exon	1492547	1492662	.	+	.	ID=exon-MAV_1534-1;Parent=rna-MAV_1534;gbkey=rRNA;gene=rrfA;locus_tag=MAV_1534;product=5S ribosomal RNA
