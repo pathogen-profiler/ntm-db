@@ -1,2 +1,2 @@
-Gene,Mutation,Info
-MFTT_RS08720,functionally_normal,type=drug_resistance;drug=macrolides;literature=10.1093/cid/ciae421
+Gene,Mutation,type,drug,literature
+MFTT_RS08720,functionally_normal,drug_resistance,macrolides,10.1093/cid/ciae421
