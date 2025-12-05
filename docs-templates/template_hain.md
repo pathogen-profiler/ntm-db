@@ -34,7 +34,7 @@ Drug resistance is detected for:
 Gene | Drug | Literature
 ------------ | ------------- | ------------- 
 {%- for row in data['gene_watchlist'] %}
-{{ row.Gene }} | {{ row.drug }} | {{ row.literature }}
+{{ row.Gene }} | {{ row.drug }} | [{{ row.literature }}](https://doi.org/{{ row.literature }})
 {%- endfor %}
 
 
@@ -43,7 +43,7 @@ Gene | Drug | Literature
 Gene | Mutation | Type | Drug  | Literature |  In Hain LPA | E.coli numbering | Comment
 ------------ | ------------- | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ 
 {%- for row in data['mutations'] %}
-{{ row.Gene }} | {{ row.Mutation }} | {{ row.type }} | {{ row.drug }} | {{ row.literature }} | {{ row.hain }} | {{ row['E.coli-nomenclature'] }} | {{ row.comment }} |
+{{ row.Gene }} | {{ row.Mutation }} | {{ row.type }} | {{ row.drug }} | [{{ row.literature }}](https://doi.org/{{ row.literature }}) | {{ row.hain }} | {{ row['E.coli-nomenclature'] }} | {{ row.comment }} |
 
 {%- endfor %}
 

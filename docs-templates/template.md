@@ -34,7 +34,7 @@ Drug resistance is detected for:
 Gene | Drug | Literature
 ------------ | ------------- | ------------- 
 {%- for row in data['gene_watchlist'] %}
-{{ row.Gene }} | {{ row.drug }} | {{ row.literature }}
+{{ row.Gene }} | {{ row.drug }} | [{{ row.literature }}](https://doi.org/{{ row.literature }})
 {%- endfor %}
 
 
@@ -44,7 +44,7 @@ Gene | Drug | Literature
 Gene | Mutation | Type | Drug  | Literature | Comment
 ------------ | ------------- | ------------ | ------------ | ------------ | ------------ 
 {%- for row in data['mutations'] %}
-{{ row.Gene }} | {{ row.Mutation }} | {{ row.type }} | {{ row.drug }} | {{ row.literature }} | {{ row.comment }} |
+{{ row.Gene }} | {{ row.Mutation }} | {{ row.type }} | {{ row.drug }} | [{{ row.literature }}](https://doi.org/{{ row.literature }}) | {{ row.comment }} |
 
 {%- endfor %}
 
