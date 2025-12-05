@@ -1,0 +1,3 @@
+Gene,Info
+rrl,type=drug_resistance;drug=macrolides
+rrs,type=drug_resistance;drug=amikacin

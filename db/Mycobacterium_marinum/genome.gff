@@ -8315,10 +8315,10 @@ NC_010612.1	Protein Homology	CDS	5029777	5030295	.	+	0	ID=cds-WP_012395667.1;Par
 NC_010612.1	RefSeq	gene	5030338	5030451	.	-	.	ID=gene-MMAR_RS20415;Name=rrf;gbkey=Gene;gene=rrf;gene_biotype=rRNA;locus_tag=MMAR_RS20415;old_locus_tag=MMAR_5517
 NC_010612.1	cmsearch	rRNA	5030338	5030451	.	-	.	ID=rna-MMAR_RS20415;Parent=gene-MMAR_RS20415;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.5;locus_tag=MMAR_RS20415;product=5S ribosomal RNA
 NC_010612.1	cmsearch	exon	5030338	5030451	.	-	.	ID=exon-MMAR_RS20415-1;Parent=rna-MMAR_RS20415;Dbxref=RFAM:RF00001;gbkey=rRNA;gene=rrf;inference=COORDINATES: profile:INFERNAL:1.1.5;locus_tag=MMAR_RS20415;product=5S ribosomal RNA
-NC_010612.1	RefSeq	gene	5030543	5033647	.	-	.	ID=gene-MMAR_RS20420;Name=MMAR_RS20420;gbkey=Gene;gene_biotype=rRNA;locus_tag=MMAR_RS20420;old_locus_tag=MMAR_5518
+NC_010612.1	RefSeq	gene	5030543	5033647	.	-	.	ID=gene-MMAR_RS20420;Name=rrl;gbkey=Gene;gene_biotype=rRNA;locus_tag=MMAR_RS20420;old_locus_tag=MMAR_5518
 NC_010612.1	cmsearch	rRNA	5030543	5033647	.	-	.	ID=rna-MMAR_RS20420;Parent=gene-MMAR_RS20420;Dbxref=RFAM:RF02541;gbkey=rRNA;inference=COORDINATES: profile:INFERNAL:1.1.5;locus_tag=MMAR_RS20420;product=23S ribosomal RNA
 NC_010612.1	cmsearch	exon	5030543	5033647	.	-	.	ID=exon-MMAR_RS20420-1;Parent=rna-MMAR_RS20420;Dbxref=RFAM:RF02541;gbkey=rRNA;inference=COORDINATES: profile:INFERNAL:1.1.5;locus_tag=MMAR_RS20420;product=23S ribosomal RNA
-NC_010612.1	RefSeq	gene	5033924	5035454	.	-	.	ID=gene-MMAR_RS20425;Name=MMAR_RS20425;gbkey=Gene;gene_biotype=rRNA;locus_tag=MMAR_RS20425;old_locus_tag=MMAR_5519
+NC_010612.1	RefSeq	gene	5033924	5035454	.	-	.	ID=gene-MMAR_RS20425;Name=rrs;gbkey=Gene;gene_biotype=rRNA;locus_tag=MMAR_RS20425;old_locus_tag=MMAR_5519
 NC_010612.1	cmsearch	rRNA	5033924	5035454	.	-	.	ID=rna-MMAR_RS20425;Parent=gene-MMAR_RS20425;Dbxref=RFAM:RF00177;gbkey=rRNA;inference=COORDINATES: profile:INFERNAL:1.1.5;locus_tag=MMAR_RS20425;product=16S ribosomal RNA
 NC_010612.1	cmsearch	exon	5033924	5035454	.	-	.	ID=exon-MMAR_RS20425-1;Parent=rna-MMAR_RS20425;Dbxref=RFAM:RF00177;gbkey=rRNA;inference=COORDINATES: profile:INFERNAL:1.1.5;locus_tag=MMAR_RS20425;product=16S ribosomal RNA
 NC_010612.1	RefSeq	gene	5035745	5036998	.	-	.	ID=gene-MMAR_RS20430;Name=murA;gbkey=Gene;gene=murA;gene_biotype=protein_coding;locus_tag=MMAR_RS20430;old_locus_tag=MMAR_4083
