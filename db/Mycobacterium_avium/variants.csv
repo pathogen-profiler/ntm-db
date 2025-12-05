@@ -1,4 +1,25 @@
-Gene,Mutation,Info
-rrlA,n.2279A>C,type=drug_resistance;drug=macrolides;literature=10.1128/AAC.39.12.2625
-rrlA,n.2279A>G,type=drug_resistance;drug=macrolides;literature=10.1128/AAC.39.12.2625
-rrlA,n.2279A>T,type=drug_resistance;drug=macrolides;literature=10.1128/AAC.39.12.2625
+Gene,Mutation,type,drug,literature,hain,E.coli-nomenclature,gene_id,so_term,comment
+rrl,n.2278A>C,drug_resistance,macrolides,Realegeno et al,no,A2057C,,,
+rrl,n.2278A>G,drug_resistance,macrolides,Realegeno et al,no,A2057G,,,
+rrl,n.2278A>T,drug_resistance,macrolides,Realegeno et al,no,A2057T,,,
+rrl,n.2279A>C,drug_resistance,macrolides,10.1038/s41467-021-25484-9,yes,A2058C,,,
+rrl,n.2279A>G,drug_resistance,macrolides,10.1038/s41467-021-25484-9,yes,A2058G,,,
+rrl,n.2279A>T,drug_resistance,macrolides,10.1038/s41467-021-25484-9,yes,A2058T,,,
+rrl,n.2280A>C,drug_resistance,macrolides,10.1038/s41467-021-25484-9,yes,A2059C,,,
+rrl,n.2280A>G,drug_resistance,macrolides,10.1038/s41467-021-25484-9,yes,A2059G,,,
+rrl,n.2280A>T,drug_resistance,macrolides,10.1038/s41467-021-25484-9,yes,A2059T,,,
+rrl,n.2290G>A,drug_resistance,macrolides,10.1038/s41467-021-25484-9,no,G2069A,,,
+rrl,n.2290G>C,drug_resistance,macrolides,10.1038/s41467-021-25484-9,no,G2069C,,,
+rrl,n.2290G>T,drug_resistance,macrolides,10.1038/s41467-021-25484-9,no,G2069T,,,
+rrl,n.2303A>C,drug_resistance,macrolides,10.1038/s41467-021-25484-9,no,A2082C,,,
+rrl,n.2303A>G,drug_resistance,macrolides,10.1038/s41467-021-25484-9,no,A2082G,,,
+rrl,n.2303A>T,drug_resistance,macrolides,10.1038/s41467-021-25484-9,no,A2082T,,,
+rrs,n.1386T>A,drug_resistance,amikacin,Realegeno et al,yes,T1406A,,,
+rrs,n.1386T>C,drug_resistance,amikacin,Realegeno et al,no,T1406C,,,
+rrs,n.1386T>G,drug_resistance,amikacin,Realegeno et al,no,T1406G,,,
+rrs,n.1388A>C,drug_resistance,amikacin,10.1038/s41467-021-25484-9,no,A1408C,,,
+rrs,n.1388A>G,drug_resistance,amikacin,10.1038/s41467-021-25484-9,yes,A1408G,,,
+rrs,n.1388A>T,drug_resistance,amikacin,10.1038/s41467-021-25484-9,no,A1408T,,,
+rrs,n.1389C>A,drug_resistance,amikacin,10.1038/s41467-021-25484-9,no,C1409A,,,
+rrs,n.1389C>G,drug_resistance,amikacin,10.1038/s41467-021-25484-9,no,C1409G,,,
+rrs,n.1389C>T,drug_resistance,amikacin,10.1038/s41467-021-25484-9,yes,C1409T,,,
