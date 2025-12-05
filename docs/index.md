@@ -6,4 +6,4 @@ The database is organized by species, with each species having its own page cont
 
 ## NTM-Profiler
 
-NTM-DB is used by the NTM-Profiler tool to analyze genomic data from NTM isolates. The tool identifies genetic mutations associated with drug resistance and provides a report based on the data in this database. You can use this tool using the web interface at [https://bioinformatics.lshtm.ac.uk/ntm-profiler/](https://bioinformatics.lshtm.ac.uk/ntm-profiler/) or install it locally from via [GitHub](https://github.com/jodyphelan/ntm-profiler).
+NTM-DB is used by the NTM-Profiler tool to analyze genomic data from NTM isolates. The tool identifies genetic mutations associated with drug resistance and provides a report based on the data in this database. You can use this tool using the web interface at [https://bioinformatics.lshtm.ac.uk/ntm-profiler/](https://bioinformatics.lshtm.ac.uk/ntm-profiler/) or install it locally from via [bioconda](https://bioconda.github.io/recipes/ntm-profiler/README.html).
