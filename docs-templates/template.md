@@ -1,5 +1,6 @@
 ---
-
+hide:
+    toc: true
 ---
 {% set data = get_data('SPECIES') %}
 
@@ -38,15 +39,58 @@ Gene | Drug | Literature
 {%- endfor %}
 
 
-
+{% if data['resistance_detection'] == "Yes" %}
 
 ## Resistance mechanisms
-Gene | Mutation | Type | Drug  | Literature | Comment
------------- | ------------- | ------------ | ------------ | ------------ | ------------ 
-{%- for row in data['mutations'] %}
-{{ row.Gene }} | {{ row.Mutation }} | {{ row.type }} | {{ row.drug }} | [{{ row.literature }}](https://doi.org/{{ row.literature }}) | {{ row.comment }} |
 
-{%- endfor %}
+
+<table id="resistance-table">
+<thead>
+    <tr>
+    {%- for c in get_resistance_table_headers('SPECIES') %}
+    <th>{{ c }}</th>
+    {%- endfor %}
+    </tr>
+</thead>
+<tbody></tbody>
+</table>
+
+<link href="https://cdn.datatables.net/v/dt/jq-3.7.0/jszip-3.10.1/dt-2.1.7/b-3.1.2/b-colvis-3.1.2/b-html5-3.1.2/date-1.5.4/sb-1.8.0/datatables.min.css" rel="stylesheet">
+
+<script src="https://cdn.datatables.net/v/dt/jq-3.7.0/jszip-3.10.1/dt-2.1.7/b-3.1.2/b-colvis-3.1.2/b-html5-3.1.2/date-1.5.4/sb-1.8.0/datatables.min.js"></script>  
+
+<script>
+$(document).ready(function() {
+    data = {{ get_resistance_table_rows('SPECIES') }}
+    console.log('test')
+
+    $('#resistance-table').DataTable({
+    data: data,
+    columnDefs: [
+        // { targets: [0, 1, 2, 3], visible: true},
+        { targets: '_all', visible: true }
+    ],
+    layout: {
+        //   top1: 'searchBuilder',
+        topStart: {
+            buttons: [
+                {
+                    extend: 'colvis',
+                    postfixButtons: ['colvisRestore']
+                },
+                {
+                    extend: 'excelHtml5',
+                    autoFilter: true,
+                    sheetName: 'Exported data'
+                }
+            ]
+        }
+    }
+    });
+});
+
+</script>
+{% endif %}
 
 
 <!-- 100% privacy friendly analytics to report back to funding agency -->

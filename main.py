@@ -3,6 +3,7 @@ Basic example of a Mkdocs-macros module
 """
 
 
+from fileinput import filename
 import yaml
 import json
 import csv
@@ -28,7 +29,6 @@ def load_specific_csv(filename):
         for c in columns:
             if c not in row:
                 row[c] = ''
-    print(rows)
     return rows
 
 def get_subspecies_from_barcode(filename):
@@ -72,3 +72,54 @@ def define_env(env):
         bounds = [i for i in range(len(page_text)) if page_text[i].strip()=="---"]
         data = yaml.safe_load("\n".join(page_text[bounds[0]+1:bounds[1]]))
         return data
+    
+    @env.macro
+    def get_species_table_headers():
+        filename1 = env.project_dir + '/db/species/accessions.csv'
+        filename2 = env.project_dir + '/db/species/taxonomy.csv'
+        reader1 = csv.DictReader(open(filename1))
+        headers = reader1.fieldnames
+        reader2 = csv.DictReader(open(filename2))
+        for h in reader2.fieldnames:
+            if h not in headers:
+                if h=='gtdb_species':
+                    continue
+                headers.append(h)
+        return headers
+    
+    @env.macro
+    def get_species_table_rows():
+        headers = get_species_table_headers()
+        filename1 = env.project_dir + '/db/species/accessions.csv'
+        filename2 = env.project_dir + '/db/species/taxonomy.csv'
+        taxonomy_data = {}
+        for row in csv.DictReader(open(filename2)):
+            taxonomy_data[row['gtdb_species']] = {k: v for k, v in row.items() if k != 'gtdb_species'}
+        data = []
+        for row in csv.DictReader(open(filename1)):
+            row.update(taxonomy_data.get(row['species'],{}))
+            for c in headers:
+                if c not in row:
+                    row[c] = ''
+            data.append(list(row.values()))
+
+
+        return json.dumps(data)
+    
+    @env.macro
+    def get_resistance_table_headers(species):
+        filename1 = env.project_dir + f'/db/{species}/variants.csv'
+        reader1 = csv.DictReader(open(filename1))
+        headers = reader1.fieldnames
+        return headers
+    
+    @env.macro
+    def get_resistance_table_rows(species):
+        filename1 = env.project_dir + f'/db/{species}/variants.csv'
+        data = []
+        for row in csv.DictReader(open(filename1)):
+            data.append(list(row.values()))
+            print(row)
+
+        print(data)
+        return json.dumps(data)
