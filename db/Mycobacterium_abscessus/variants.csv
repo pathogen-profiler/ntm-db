@@ -1,29 +1,29 @@
-Gene,Mutation,Info
-rrl,n.2269A>C,type=drug_resistance;drug=macrolides;literature=Realegeno et al;hain=no;E.coli-nomenclature=A2057C
-rrl,n.2269A>G,type=drug_resistance;drug=macrolides;literature=Realegeno et al;hain=no;E.coli-nomenclature=A2057G
-rrl,n.2269A>T,type=drug_resistance;drug=macrolides;literature=Realegeno et al;hain=no;E.coli-nomenclature=A2057T
-rrl,n.2270A>C,type=drug_resistance;drug=macrolides;literature=10.1038/s41467-021-25484-9;hain=yes;E.coli-nomenclature=A2058C
-rrl,n.2270A>G,type=drug_resistance;drug=macrolides;literature=10.1038/s41467-021-25484-9;hain=yes;E.coli-nomenclature=A2058G
-rrl,n.2270A>T,type=drug_resistance;drug=macrolides;literature=10.1038/s41467-021-25484-9;hain=yes;E.coli-nomenclature=A2058T
-rrl,n.2271A>C,type=drug_resistance;drug=macrolides;literature=10.1038/s41467-021-25484-9;hain=yes;E.coli-nomenclature=A2059C
-rrl,n.2271A>G,type=drug_resistance;drug=macrolides;literature=10.1038/s41467-021-25484-9;hain=yes;E.coli-nomenclature=A2059G
-rrl,n.2271A>T,type=drug_resistance;drug=macrolides;literature=10.1038/s41467-021-25484-9;hain=yes;E.coli-nomenclature=A2059T
-rrl,n.2281G>A,type=drug_resistance;drug=macrolides;literature=10.1038/s41467-021-25484-9;hain=no;E.coli-nomenclature=G2069A
-rrl,n.2281G>C,type=drug_resistance;drug=macrolides;literature=10.1038/s41467-021-25484-9;hain=no;E.coli-nomenclature=G2069C
-rrl,n.2281G>T,type=drug_resistance;drug=macrolides;literature=10.1038/s41467-021-25484-9;hain=no;E.coli-nomenclature=G2069T
-rrl,n.2293A>C,type=drug_resistance;drug=macrolides;literature=10.1038/s41467-021-25484-9;hain=no;E.coli-nomenclature=A2082C
-rrl,n.2293A>G,type=drug_resistance;drug=macrolides;literature=10.1038/s41467-021-25484-9;hain=no;E.coli-nomenclature=A2082G
-rrl,n.2293A>T,type=drug_resistance;drug=macrolides;literature=10.1038/s41467-021-25484-9;hain=no;E.coli-nomenclature=A2082T
-rrs,n.1373T>A,type=drug_resistance;drug=amikacin;literature=Realegeno et al;hain=yes;E.coli-nomenclature=T1406A
-rrs,n.1373T>C,type=drug_resistance;drug=amikacin;literature=Realegeno et al;hain=no;E.coli-nomenclature=T1406C
-rrs,n.1373T>G,type=drug_resistance;drug=amikacin;literature=Realegeno et al;hain=no;E.coli-nomenclature=T1406G
-rrs,n.1375A>C,type=drug_resistance;drug=amikacin;literature=10.1038/s41467-021-25484-9;hain=no;E.coli-nomenclature=A1408C
-rrs,n.1375A>G,type=drug_resistance;drug=amikacin;literature=10.1038/s41467-021-25484-9;hain=yes;E.coli-nomenclature=A1408G
-rrs,n.1375A>T,type=drug_resistance;drug=amikacin;literature=10.1038/s41467-021-25484-9;hain=no;E.coli-nomenclature=A1408T
-rrs,n.1376C>A,type=drug_resistance;drug=amikacin;literature=10.1038/s41467-021-25484-9;hain=no;E.coli-nomenclature=A1409A
-rrs,n.1376C>G,type=drug_resistance;drug=amikacin;literature=10.1038/s41467-021-25484-9;hain=no;E.coli-nomenclature=A1409G
-rrs,n.1376C>T,type=drug_resistance;drug=amikacin;literature=10.1038/s41467-021-25484-9;hain=yes;E.coli-nomenclature=A1409T
-MAB_2297,functionally_normal,type=drug_resistance;drug=macrolides;literature=10.1038/s41467-021-25484-9
-MAB_2297,p.Trp10Arg,type=loss_of_function;gene_id=MAB_2297;so_term=loss_of_function_variant;literature=10.3389/fmicb.2024.1331508;hain=yes;comment=Causes a loss of function in erm(41) and removes the inducible macrolide resistance phenotype
-MAB_2297,p.Arg7*,type=loss_of_function;gene_id=MAB_2297;so_term=loss_of_function_variant;hain=no;comment=Causes a loss of function in erm(41) and removes the inducible macrolide resistance phenotype
-MAB_0019,p.Asp96Asn,type=drug_resistance;drug=fluoroquinolones;literature=10.1128/aac.01051-24
+Gene,Mutation,type,drug,literature,hain,E.coli-nomenclature,gene_id,so_term,comment
+rrl,n.2269A>C,drug_resistance,macrolides,Realegeno et al,no,A2057C,,,
+rrl,n.2269A>G,drug_resistance,macrolides,Realegeno et al,no,A2057G,,,
+rrl,n.2269A>T,drug_resistance,macrolides,Realegeno et al,no,A2057T,,,
+rrl,n.2270A>C,drug_resistance,macrolides,10.1038/s41467-021-25484-9,yes,A2058C,,,
+rrl,n.2270A>G,drug_resistance,macrolides,10.1038/s41467-021-25484-9,yes,A2058G,,,
+rrl,n.2270A>T,drug_resistance,macrolides,10.1038/s41467-021-25484-9,yes,A2058T,,,
+rrl,n.2271A>C,drug_resistance,macrolides,10.1038/s41467-021-25484-9,yes,A2059C,,,
+rrl,n.2271A>G,drug_resistance,macrolides,10.1038/s41467-021-25484-9,yes,A2059G,,,
+rrl,n.2271A>T,drug_resistance,macrolides,10.1038/s41467-021-25484-9,yes,A2059T,,,
+rrl,n.2281G>A,drug_resistance,macrolides,10.1038/s41467-021-25484-9,no,G2069A,,,
+rrl,n.2281G>C,drug_resistance,macrolides,10.1038/s41467-021-25484-9,no,G2069C,,,
+rrl,n.2281G>T,drug_resistance,macrolides,10.1038/s41467-021-25484-9,no,G2069T,,,
+rrl,n.2293A>C,drug_resistance,macrolides,10.1038/s41467-021-25484-9,no,A2082C,,,
+rrl,n.2293A>G,drug_resistance,macrolides,10.1038/s41467-021-25484-9,no,A2082G,,,
+rrl,n.2293A>T,drug_resistance,macrolides,10.1038/s41467-021-25484-9,no,A2082T,,,
+rrs,n.1373T>A,drug_resistance,amikacin,Realegeno et al,yes,T1406A,,,
+rrs,n.1373T>C,drug_resistance,amikacin,Realegeno et al,no,T1406C,,,
+rrs,n.1373T>G,drug_resistance,amikacin,Realegeno et al,no,T1406G,,,
+rrs,n.1375A>C,drug_resistance,amikacin,10.1038/s41467-021-25484-9,no,A1408C,,,
+rrs,n.1375A>G,drug_resistance,amikacin,10.1038/s41467-021-25484-9,yes,A1408G,,,
+rrs,n.1375A>T,drug_resistance,amikacin,10.1038/s41467-021-25484-9,no,A1408T,,,
+rrs,n.1376C>A,drug_resistance,amikacin,10.1038/s41467-021-25484-9,no,C1409A,,,
+rrs,n.1376C>G,drug_resistance,amikacin,10.1038/s41467-021-25484-9,no,C1409G,,,
+rrs,n.1376C>T,drug_resistance,amikacin,10.1038/s41467-021-25484-9,yes,C1409T,,,
+erm(41),functionally_normal,drug_resistance,macrolides,10.1038/s41467-021-25484-9,,,,,
+erm(41),p.Trp10Arg,loss_of_function,,,yes,,MAB_2297,loss_of_function_variant,Causes a loss of function in erm(41) and removes the inducible macrolide resistance phenotype
+erm(41),p.Arg7*,loss_of_function,,,no,,MAB_2297,loss_of_function_variant,Causes a loss of function in erm(41) and removes the inducible macrolide resistance phenotype
+gyrA,p.Asp96Asn,drug_resistance,fluoroquinolones,10.1128/aac.01051-24,,,,,
