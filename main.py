@@ -64,7 +64,11 @@ def define_env(env):
         data['resistance_detection'] = 'Yes' if ('drugs' in data['variables'] and len(data['variables']['drugs'])>0) else 'No'
         return data
 
-
+    @env.macro
+    def get_species_db_data(species):
+        data = {}
+        data['variables'] = json.load(open(env.project_dir+f"/db/species/variables.json"))
+        return data
 
     @env.macro
     def get_front_matter(f):

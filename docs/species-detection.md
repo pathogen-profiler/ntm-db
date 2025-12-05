@@ -3,10 +3,11 @@ hide:
   - toc
 ---
 
+{% set data = get_species_db_data('SPECIES') %}
 
 # Species
 
-To facilitate species detection a database of sequences has been created for use with NTM-Profiler. The following table summarizes the species and accessions included in the NTM-DB. To make sure your species is detected by NTM-Profiler, please check that your species is listed here.
+To facilitate species detection a database of sequences has been created for use with NTM-Profiler. The taxonomy is taken from [GTDB](https://gtdb.ecogenomic.org/) (v{{ data['variables']['gtdb-version'] }}). This differs from the NCBI taxonomy in that the genus is "Mycobacterium" for all species. The following table summarizes the species and accessions included in NTM-DB. To make sure your species is detected by NTM-Profiler, please check that your species is listed here.
 
 <table>
   <thead>
