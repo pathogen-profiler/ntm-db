@@ -1,0 +1,3 @@
+Gene,type,drug,literature
+rpoB,drug_resistance,rifampicin,Klein et al. PMID: 11600355
+rrl,drug_resistance,macrolides,"Li et al. PMID: 28082964, Burman et al. PMID: 9635911"
