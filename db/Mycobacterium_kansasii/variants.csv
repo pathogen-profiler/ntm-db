@@ -1,0 +1,8 @@
+﻿Gene,Mutation,type,drug,literature,hain,E. coli-nomenclature,gene_id,Ref,comment,confidence
+rpoB,p.Gln442Leu,drug_resistance,rifampicin,"Klein et al., PMID: 11600355",,,MKAN_19465,CP006835.1,,high
+rpoB,p.His455Tyr,drug_resistance,rifampicin,"Klein et al., PMID: 11600355",,,MKAN_19465,CP006835.1,In vitro generated lab mutant,high
+rpoB,p.Ser460Leu,drug_resistance,rifampicin,"Klein et al., PMID: 11600355, Zhang et al., PMID: 36209990",,,MKAN_19465,CP006835.1,Corresponding to S450L in M. tuberculosis,high
+rrl,n.2265A>T,drug_resistance,macrolides,"Li et al., PMID: 28082964, Burman et al., PMID: 9635911",,A2058T,MKAN_06305,CP006835.1,,high
+rrl,n.2265A>C,drug_resistance,macrolides,"Li et al., PMID: 28082964",,A2058C,MKAN_06305,CP006835.1,,high
+rrl,n.2265A>G,drug_resistance,macrolides,"Diricks et al., Unpublished",,A2058G,,CP006835.1,"1 phenotypically resistant isolate, detected at low frequency 7%",high
+rrl,n.2227A>C,drug_resistance,macrolides,"Bakuła et al., PMID: 29437627",,,MKAN_06305,CP006835.1,,low
