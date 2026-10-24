@@ -1,34 +1,170 @@
-gtdb_species,notes
-Mycobacterium gwanakae,Listed in in the NCBI as Mycobacterium chelonae subsp. gwanakae
-Mycobacterium fortuitum,M. fortuitum is a member of the Mycobacterium fortuitum complex (doi.org/10.1128/aac.02331-18)
-Mycobacterium peregrinum,M. peregrinum is a member of the Mycobacterium fortuitum complex (doi.org/10.1128/aac.02331-18)
-Mycobacterium porcinum,M. porcinum is a member of the Mycobacterium fortuitum complex (doi.org/10.1128/aac.02331-18)
-Mycobacterium septicum,M. septicum is a member of the Mycobacterium fortuitum complex (doi.org/10.1128/aac.02331-18)
-Mycobacterium conceptionense,M. conceptionense is a member of the Mycobacterium fortuitum complex (doi.org/10.1128/aac.02331-18)
-Mycobacterium boenickei,M. boenickei is a member of the Mycobacterium fortuitum complex (doi.org/10.1128/aac.02331-18)
-Mycobacterium houstonense,M. houstonense is a member of the Mycobacterium fortuitum complex (doi.org/10.1128/aac.02331-18)
-Mycobacterium neworleansense,M. neworleansense is a member of the Mycobacterium fortuitum complex (doi.org/10.1128/aac.02331-18)
-Mycobacterium brisbanense,M. brisbanense is a member of the Mycobacterium fortuitum complex (doi.org/10.1128/aac.02331-18)
-Mycobacterium farcinogenes,M. farcinogenes is a member of the Mycobacterium fortuitum complex (doi.org/10.1128/aac.02331-18)
-Mycobacterium senegalense,M. senegalense is a member of the Mycobacterium fortuitum complex (doi.org/10.1128/aac.02331-18)
-Mycobacterium setense,M. setense is a member of the Mycobacterium fortuitum complex (doi.org/10.1128/aac.02331-18)
-Mycobacterium arupense,M. arupense is a member of the Mycobacterium terrae complex (doi.org/10.1128/CMR.00035-14)
-Mycobacterium nonchromogenicum,M. nonchromogenicum is a member of the Mycobacterium terrae complex (doi.org/10.1128/CMR.00035-14)
-Mycobacterium heraklionense,M. heraklionense is a member of the Mycobacterium terrae complex (doi.org/10.1128/CMR.00035-14)
-Mycobacterium minnesotense,M. minnesotense is a member of the Mycobacterium terrae complex (doi.org/10.1128/CMR.00035-14)
-Mycobacterium paraterrae,M. paraterrae is a member of the Mycobacterium terrae complex (doi.org/10.1128/CMR.00035-14)
-Mycobacterium longobardum,M. longobardum is a member of the Mycobacterium terrae complex (doi.org/10.1128/CMR.00035-14)
-Mycobacterium engbaekii,M. engbaekii is a member of the Mycobacterium terrae complex (doi.org/10.1128/CMR.00035-14)
-Mycobacterium hiberniae,M. hiberniae is a member of the Mycobacterium terrae complex (doi.org/10.1128/CMR.00035-14)
-Mycobacterium terrae,M. terrae is a member of the Mycobacterium terrae complex (doi.org/10.1128/CMR.00035-14)
-Mycobacterium algericum,M. algericum is a member of the Mycobacterium terrae complex (doi.org/10.1128/CMR.00035-14)
-Mycobacterium kumamotonense,M. kumamotonense is a member of the Mycobacterium terrae complex (doi.org/10.1128/CMR.00035-14)
-Mycobacterium senuense,M. senuense is a member of the Mycobacterium terrae complex (doi.org/10.1128/CMR.00035-14)
-Mycobacterium avium,M. avium is a member of the Mycobacterium avium complex
-Mycobacterium marseillense,M. marseillense is a member of the Mycobacterium avium complex
-Mycobacterium intracellulare,M. intracellulare is a member of the Mycobacterium avium complex
-Mycobacterium colombiense,M. colombiense is a member of the Mycobacterium avium complex
-Mycobacterium arosiense,M. arosiense is a member of the Mycobacterium avium complex
-Mycobacterium mantenii,M. mantenii is a member of the Mycobacterium avium complex
-Mycobacterium senriense,M. senriense  is a member of the Mycobacterium avium complex
-Mycobacterium vulneris,M. vulneris is a member of the Mycobacterium avium complex
+﻿species,complex
+Mycobacterium sp013449725,M. chelonae-abscessus complex
+Mycobacterium sp050701835,M. chelonae-abscessus complex
+Mycobacterium sp009729205,M. chelonae-abscessus complex
+Mycobacterium chelonae A,M. chelonae-abscessus complex
+Mycobacterium saopaulense,M. chelonae-abscessus complex
+Mycobacterium immunogenum,M. chelonae-abscessus complex
+Mycobacterium abscessus,M. chelonae-abscessus complex
+Mycobacterium stephanolepidis,M. chelonae-abscessus complex
+Mycobacterium gwanakae,M. chelonae-abscessus complex
+Mycobacterium chelonae,M. chelonae-abscessus complex
+Mycobacterium franklinii,M. chelonae-abscessus complex
+Mycobacterium sp002013375,M. chelonae-abscessus complex
+Mycobacterium sp002013415,M. chelonae-abscessus complex
+Mycobacterium salmoniphilum,M. chelonae-abscessus complex
+Mycobacterium sp002013775,M. chelonae-abscessus complex
+Mycobacterium sp002013465,M. chelonae-abscessus complex
+Mycobacterium parakoreense,M. triviale group
+Mycobacterium koreense,M. triviale group
+Mycobacterium triviale,M. triviale group
+Mycobacterium sp001668625,M. triviale group
+Mycobacterium terrae,M. terrae complex
+Mycobacterium sp964397355,M. terrae complex
+Mycobacterium kumamotonense,M. terrae complex
+Mycobacterium senuense,M. terrae complex
+Mycobacterium algericum A,M. terrae complex
+Mycobacterium algericum,M. terrae complex
+Mycobacterium sinense B,M. terrae complex
+Mycobacterium sinense C,M. terrae complex
+Mycobacterium sinense A,M. terrae complex
+Mycobacterium longobardum,M. terrae complex
+Mycobacterium kokjensenii,M. terrae complex
+Mycobacterium hiberniae,M. terrae complex
+Mycobacterium engbaekii,M. terrae complex
+Mycobacterium heraklionense,M. terrae complex
+Mycobacterium nonchromogenicum,M. terrae complex
+Mycobacterium minnesotense,M. terrae complex
+Mycobacterium arupense,M. terrae complex
+Mycobacterium sp000455125,M. terrae complex
+Mycobacterium sp964292075,M. terrae complex
+Mycobacterium icosiumassiliensis,M. terrae complex
+Mycobacterium heraklionense C,M. terrae complex
+Mycobacterium holstebronense,M. terrae complex
+Mycobacterium heraklionense A,M. terrae complex
+Mycobacterium sp046250075,M. terrae complex
+Mycobacterium virginiense,M. terrae complex
+Mycobacterium branderi,M. celatum group
+Mycobacterium sp003402475,M. celatum group
+Mycobacterium kyorinense,M. celatum group
+Mycobacterium celatum,M. celatum group
+Mycobacterium lepromatosis,M. leprae group
+Mycobacterium leprae,M. leprae group
+Mycobacterium marinum,M. marinum group
+Mycobacterium avium,M. avium complex
+Mycobacterium sp001667315,M. avium complex
+Mycobacterium sp025933915,M. avium complex
+Mycobacterium sp004298145,M. avium complex
+Mycobacterium sp020217485,M. avium complex
+Mycobacterium marseillense,M. avium complex
+Mycobacterium intracellulare,M. avium complex
+Mycobacterium sp035617725,M. avium complex
+Mycobacterium sp001672975,M. avium complex
+Mycobacterium mantenii,M. avium complex
+Mycobacterium mantenii A,M. avium complex
+Mycobacterium arosiense,M. avium complex
+Mycobacterium europaeum A,M. avium complex
+Mycobacterium arosiense A,M. avium complex
+Mycobacterium sp963796035,M. avium complex
+Mycobacterium sp963849935,M. avium complex
+Mycobacterium sp035716165,M. avium complex
+Mycobacterium sp001665875,M. avium complex
+Mycobacterium sp963797865,M. avium complex
+Mycobacterium sp036273375,M. avium complex
+Mycobacterium sp001667925,M. avium complex
+Mycobacterium sp001673555,M. avium complex
+Mycobacterium sp036338755,M. avium complex
+Mycobacterium sp001667145,M. avium complex
+Mycobacterium senriense,M. avium complex
+Mycobacterium colombiense A,M. avium complex
+Mycobacterium sp045343915,M. avium complex
+Mycobacterium colombiense,M. avium complex
+Mycobacterium colombiense C,M. avium complex
+Mycobacterium vulneris,M. avium complex
+Mycobacterium colombiense B,M. avium complex
+Mycobacterium sp000382405,M. fortuitum complex
+Mycobacterium sp000373905,M. fortuitum complex
+Mycobacterium brisbanense,M. fortuitum complex
+Mycobacterium dioxanotrophicus,M. fortuitum complex
+Mycobacterium aquaticum,M. fortuitum complex
+Mycobacterium sp001665685,M. fortuitum complex
+Mycobacterium appelbergii,M. fortuitum complex
+Mycobacterium frederiksbergense B,M. fortuitum complex
+Mycobacterium sp009729095,M. fortuitum complex
+Mycobacterium fortunisiensis,M. fortuitum complex
+Mycobacterium sp030486405,M. fortuitum complex
+Mycobacterium houstonense,M. fortuitum complex
+Mycobacterium sp001954135,M. fortuitum complex
+Mycobacterium sp001953975,M. fortuitum complex
+Mycobacterium setense,M. fortuitum complex
+Mycobacterium sp000426065,M. fortuitum complex
+Mycobacterium fortuitum,M. fortuitum complex
+Mycobacterium sp040704635,M. fortuitum complex
+Mycobacterium peregrinum A,M. fortuitum complex
+Mycobacterium peregrinum,M. fortuitum complex
+Mycobacterium peregrinum B,M. fortuitum complex
+Mycobacterium sp004762045,M. fortuitum complex
+Mycobacterium sp040655355,M. fortuitum complex
+Mycobacterium sp011745145,M. fortuitum complex
+Mycobacterium lutetiense,M. fortuitum complex
+Mycobacterium alvei,M. fortuitum complex
+Mycobacterium sp048282725,M. fortuitum complex
+Mycobacterium nivoides,M. fortuitum complex
+Mycobacterium septicum,M. fortuitum complex
+Mycobacterium neworleansense,M. fortuitum complex
+Mycobacterium senegalense,M. fortuitum complex
+Mycobacterium syngnathidarum,M. fortuitum complex
+Mycobacterium sp036235365,M. fortuitum complex
+Mycobacterium boenickei,M. fortuitum complex
+Mycobacterium porcinum,M. fortuitum complex
+Mycobacterium porcinum A,M. fortuitum complex
+Mycobacterium shigaense,M. simiae complex
+Mycobacterium numidiamassiliense,M. simiae complex
+Mycobacterium sp963826365,M. simiae complex
+Mycobacterium rhizamassiliense,M. simiae complex
+Mycobacterium sp001665235,M. simiae complex
+Mycobacterium tilburgii,M. simiae complex
+Mycobacterium simiae,M. simiae complex
+Mycobacterium sherrisii,M. simiae complex
+Mycobacterium sp963815705,M. simiae complex
+Mycobacterium sp963794245,M. simiae complex
+Mycobacterium montefiorense,M. simiae complex
+Mycobacterium sp963712615,M. simiae complex
+Mycobacterium sp963832935,M. simiae complex
+Mycobacterium sp035996225,M. simiae complex
+Mycobacterium sp026723865,M. simiae complex
+Mycobacterium sp026625985,M. simiae complex
+Mycobacterium florentinum,M. simiae complex
+Mycobacterium stomatepiae,M. simiae complex
+Mycobacterium triplex,M. simiae complex
+Mycobacterium genavense,M. simiae complex
+Mycobacterium sp036409155,M. simiae complex
+Mycobacterium lentiflavum,M. simiae complex
+Mycobacterium sp041287235,M. simiae complex
+Mycobacterium ahvazicum,M. simiae complex
+Mycobacterium sp039023525,M. simiae complex
+Mycobacterium sp025263485,M. scrofulaceum group
+Mycobacterium paraffinicum,M. scrofulaceum group
+Mycobacterium sp001667075,M. scrofulaceum group
+Mycobacterium sp001667585,M. scrofulaceum group
+Mycobacterium sp001666835,M. scrofulaceum group
+Mycobacterium sp001667275,M. scrofulaceum group
+Mycobacterium sp001667735,M. scrofulaceum group
+Mycobacterium scrofulaceum C,M. scrofulaceum group
+Mycobacterium hainanense,M. scrofulaceum group
+Mycobacterium paraffinicum A,M. scrofulaceum group
+Mycobacterium sp001667775,M. scrofulaceum group
+Mycobacterium paraseoulense,M. scrofulaceum group
+Mycobacterium seoulense,M. scrofulaceum group
+Mycobacterium europaeum,M. scrofulaceum group
+Mycobacterium sp900240975,M. scrofulaceum group
+Mycobacterium sp001667665,M. scrofulaceum group
+Mycobacterium scrofulaceum,M. scrofulaceum group
+Mycobacterium parascrofulaceum,M. scrofulaceum group
+Mycobacterium nebraskense,M. scrofulaceum group
+Mycobacterium sp963732835,M. scrofulaceum group
+Mycobacterium sp963850895,M. scrofulaceum group
+Mycobacterium sp963820045,M. scrofulaceum group
+Mycobacterium smegmatis,M. smegmatis group
+Mycobacterium goodii,M. smegmatis group
+Mycobacterium goodii B,M. smegmatis group
